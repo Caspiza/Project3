@@ -1,0 +1,126 @@
+.resident {
+    
+    background-color: #072226;
+    color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    transition: transform 100ms ease;
+    margin:25px;
+    float: left;
+    
+    
+
+}
+
+.resident:hover {
+    transform: scale(1.03);
+}
+
+.resident__header {
+    position: relative;
+}
+.resident__status {
+    position: absolute;
+    top: 2.5em;
+    background-color: #072226 ;
+    width: 35%;
+    padding: 0.3em 0.7em;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+}
+.resident__status__circle {
+    display: block;
+    width: 14px;
+    aspect-ratio: 1;
+    background-color: #aaa;
+    border-radius: 50%;
+}
+.Alive {
+    background-color: #00d547 ;
+}
+.Dead {
+    background-color: red;
+}
+.resident__body {
+    padding: 1.5em 1em 2.5em;
+}
+.resident__name {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: #00d547;
+}
+.resident__separator {
+    margin-bottom: 0.5em;
+    border-color: #aaa3;
+}
+.resident__list {
+    display: grid;
+    gap: 0.5em;
+}
+.resident__item {
+    display: flex;
+    flex-direction: column;
+}
+.resident__label {
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #aaa;
+    
+}
+.resident__value {
+    font-weight: 500;
+}
+.location {
+    
+    background-color: #072226;    
+    width: 500px;
+    height: 120px;    
+    border-radius: 20px;
+    padding: 3px ;
+    position: relative;
+    margin: auto;
+    
+   
+    
+}
+
+.location__name {
+    color: #00d539;
+    display: flex;
+    justify-content: center;
+}
+.location__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.location__item {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    gap: 0.6em;
+    padding: 14px;
+}
+.location__label {
+    display: flex;
+    justify-content: center;
+}
+.location__answer {
+    display: flex;
+    justify-content: center;
+}
+.imagen__portada {
+    position: relative;
+    margin: 0;
+    padding: 0;    
+}
+.error__message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
